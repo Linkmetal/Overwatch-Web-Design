@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Overwatch</title>
+        <link rel="icon" href="img/logo.ico">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/heroes.css">
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/heroes.js"></script>
+        <script type="text/javascript">
+            function yaclaro(){
+                alert("Jajajajaja, lo mismo dijo la gente con World of Warcraft");
+                document.getElementById("vendermialma").checked = false;
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="img/bannersmallfinal.png" alt="">
+        </header>
+        <nav>
+            <div class="menudiv">
+                    <div class="menu"><a href="index.html" class="">Inicio</a></div>
+                    <div class="menu"><a href="lore.html" class="">Historia</a></div>
+                    <div class="menu"><a href="heroes.html" class="">Héroes</a></div>
+                    <div class="menu">
+                        <a href="" class="">Galería</a>
+                        <div class="submenudiv">
+                            <div class="submenu"><a href="images.html" class="">Imágenes</a></div>
+                            <div class="submenu"><a href="videos.html" class="">Videos</a></div>
+                        </div>
+                    </div>
+                    <div class="menu"><a href="maps.html" class="">Mapas</a></div>
+                    <div class="menu">
+                        <label class="navButton" for="registerButton">Sign Up</label>
+                        <input type="checkbox" name="" value="" id="registerButton">
+                        <div class="register">
+                            <label for="registerButton">X</label>
+                            <form class="registerform" action="index.html" method="post">
+                                E-Mail:&nbsp<input type="text" name="" value="" size="25"><br><br>
+                                Contrasña:&nbsp <input type="password" name="" value=""><br><br>
+                                Confirmar Contrasña:&nbsp <input type="password" name="" value=""><br><br>
+                                <input id="vendermialma" onclick="yaclaro()"type="checkbox" name="" value=""><span>NO deseo vender mi alma a Blizard por el resto de la eternidad.</span><br><br>
+                                <input type="submit" name="Registrarse" value="Registrarse" class="submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="menu" id="loginDiv">
+                        <label class="navButton" for="loginButton">Sign in</label>
+                        <input type="checkbox" name="" value="" id="loginButton">
+                        <div class="login">
+                            <label for="loginButton">X</label>
+                            <form class="loginform" action="index.html" method="post">
+                                E-Mail:&nbsp<input type="text" name="" value="" size="25"><br><br>
+                                Contrasña:&nbsp <input type="password" name="" value=""><br><br>
+                                <input onclick=""type="submit" name="Conectar" value="Conectar" class="submit">
+                            </form>
+                        </div>
+
+                    </div>
+            </div>
+        </nav>                               
+
+        <label id="offense" class="role" for="roleButton1" onclick="rolecolor(event);">Ataque</label>
+        <input type="radio" id="roleButton1" name="roles" value="">
+        <div class="heroesDiv" id="offenseDiv">
+            <label id="genji" class="heroe" for="genjiButton"></label>
+            <input type="radio" id="genjiButton" name="heroes" value="">
+            <object type="text/html" width="550" height="540" data="heroes/genji.html"></object>
+
+            <label id="mcgree" class="heroe" for="mcgreeButton"></label>
+            <input type="radio" id="mcgreeButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/mcgree.html"></object>
+
+            <label id="phara" class="heroe" for="pharaButton"></label>
+            <input type="radio" id="pharaButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/phara.html"></object>
+
+            <label id="reaper" class="heroe" for="reaperButton"></label>
+            <input type="radio" id="reaperButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/reaper.html"></object>
+
+            <label id="soldier" class="heroe" for="soldierButton"></label>
+            <input type="radio" id="soldierButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/soldier.html"></object>
+
+            <label id="tracer" class="heroe" for="tracerButton"></label>
+            <input type="radio" id="tracerButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/tracer.html"></object>
+        </div>
+
+        <label id="defense" class="role" for="roleButton2" onclick="rolecolor(event);">Defensa</label>
+        <input type="radio" id="roleButton2" name="roles" value="">
+        <div class="heroesDiv" id="defenseDiv">
+            <label id="bastion" class="heroe" for="bastionButton"></label>
+            <input type="radio" id="bastionButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/bastion.html"></object>
+
+            <label id="hanzo" class="heroe" for="hanzoButton"></label>
+            <input type="radio" id="hanzoButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/hanzo.html"></object>
+
+            <label id="junkrat" class="heroe" for="junkratButton"></label>
+            <input type="radio" id="junkratButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/junkrat.html"></object>
+
+            <label id="mei" class="heroe" for="meiButton"></label>
+            <input type="radio" id="meiButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/mei.html"></object>
+
+            <label id="torb" class="heroe" for="torbButton"></label>
+            <input type="radio" id="torbButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/torb.html"></object>
+
+            <label id="widow" class="heroe" for="widowButton"></label>
+            <input type="radio" id="widowButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/widow.html"></object>
+        </div>
+
+        <label id="tank" class="role" for="roleButton3" onclick="rolecolor(event);">Tanque</label>
+        <input type="radio" id="roleButton3" name="roles" value="">
+        <div class="heroesDiv" id="tankDiv">
+            <label id="dva" class="heroe" for="dvaButton"></label>
+            <input type="radio" id="dvaButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/dva.html"></object>
+
+            <label id="reind" class="heroe" for="reindButton"></label>
+            <input type="radio" id="reindButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/reind.html"></object>
+
+            <label id="roadhog" class="heroe" for="roadhogButton"></label>
+            <input type="radio" id="roadhogButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/roadhog.html"></object>
+
+            <label id="winston" class="heroe" for="winstonButton"></label>
+            <input type="radio" id="winstonButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/winston.html"></object>
+
+            <label id="zarya" class="heroe" for="zaryaButton"></label>
+            <input type="radio" id="zaryaButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/zarya.html"></object>
+        </div>
+
+        <label id="support" class="role" for="roleButton4" onclick="rolecolor(event);">Apoyo</label>
+        <input type="radio" id="roleButton4" name="roles" value="">
+        <div class="heroesDiv" id="supportDiv">
+            <label id="lucio" class="heroe" for="lucioButton"></label>
+            <input type="radio" id="lucioButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/lucio.html"></object>
+
+            <label id="mercy" class="heroe" for="mercyButton"></label>
+            <input type="radio" id="mercyButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/mercy.html"></object>
+
+            <label id="symmetra" class="heroe" for="symmetraButton"></label>
+            <input type="radio" id="symmetraButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/symmetra.html"></object>
+
+            <label id="zen" class="heroe" for="zenButton"></label>
+            <input type="radio" id="zenButton" name="heroes" value="">
+            <object type="text/html" width="525" height="540" data="heroes/zen.html"></object>
+        </div>
+        <footer>This contects are licensed by Blizzard. All rights reserved. This page is only for educational purposes. 2017 <br>Carlos Javier Díaz Falcón DAW-A</footer>
+</body>
+</html>

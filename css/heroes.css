@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "owfont";
+    src:url("../fonts/big_noodle_titling.ttf");
+}
+
+
+body {
+	background-color: #353535;
+	margin: 0;
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+header{
+    height: 54px;
+    margin-bottom: 0;
+}
+
+.submenudiv {
+	background-color: black;
+	position: absolute;
+	z-index: 5;
+	top: 127px;
+	visibility: hidden;
+}
+
+
+.heroesDiv{
+    margin-left:11%;
+    overflow: hidden;
+    width: auto;
+    max-width: 1050px;
+    max-height: 540px;
+    display:none;
+    position: absolute;
+    top:0;
+    top:150px;
+    left:0px;
+    border:solid rgba(0, 0, 0, 0.9) 10px;
+}
+
+.heroesDiv .heroe{
+    display: inline-block;
+    width: 45px;
+    height: 540px;
+    background-size: cover;
+    position: relative;
+
+}
+.role + input:checked + .heroesDiv{
+    display: inline-block;
+}
+
+.heroesDiv input{
+    display:none;
+}
+
+.heroesDiv object{
+    display:none;
+    position: relative;
+}
+
+
+.heroe + input:checked + object{
+    animation-name: openwindow;
+    animation-duration: 1s;
+    display: inline-block;
+}
+
+@keyframes openwindow{
+    0%{width:0px;}
+    50%{width:200px;}
+    100{width:525px;}
+}
+
+
+
+.role{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 200%;
+    display: block;
+    height: 140px;
+    width: 120px;
+    background-color: rgb(116, 120, 120);
+}
+
+.role:{
+    background-color: red;
+}
+#offense{
+    background-image: url(../img/attack.png);
+    background-repeat: no-repeat;
+    background-size: 120px,120px;
+}
+
+#defense{
+    background-image: url(../img/defense.png);
+    background-repeat: no-repeat;
+    background-size: 120px,120px;
+}
+
+#tank{
+    background-image: url(../img/tank.png);
+    background-repeat: no-repeat;
+    background-size: 120px,120px;
+}
+
+#support{
+    background-image: url(../img/support.png);
+    background-repeat: no-repeat;
+    background-size: 120px,120px;
+}
+
+
+
+
+#genji{
+    background-image: url("../img/heroes/genji.png");
+}
+
+#mcgree{
+    background-image: url("../img/heroes/mcgre.png");
+}
+
+#phara{
+    background-image: url("../img/heroes/phara.png");
+}
+
+#reaper{
+    background-image: url("../img/heroes/reaper.png");
+}
+
+#soldier{
+    background-image: url("../img/heroes/soldier.png");
+}
+
+#tracer{
+    background-image: url("../img/heroes/tracer.png");
+}
+
+#bastion{
+    background-image: url("../img/heroes/bastion.png");
+}
+
+#hanzo{
+    background-image: url("../img/heroes/hanzo.png");
+}
+
+#junkrat{
+    background-image: url("../img/heroes/junkrat.png");
+}
+
+#mei{
+    background-image: url("../img/heroes/mei.png");
+}
+
+#torb{
+    background-image: url("../img/heroes/torb.png");
+}
+
+#widow{
+    background-image: url("../img/heroes/widow.png");
+}
+
+#dva{
+    background-image: url("../img/heroes/dva.png");
+}
+
+#reind{
+    background-image: url("../img/heroes/reind.png");
+}
+
+#roadhog{
+    background-image: url("../img/heroes/roadhog.png");
+}
+
+#winston{
+    background-image: url("../img/heroes/winston.png");
+}
+
+#zarya{
+    background-image: url("../img/heroes/zarya.png");
+}
+
+#lucio{
+    background-image: url("../img/heroes/lucio.png");
+}
+
+#mercy{
+    background-image: url("../img/heroes/mercy.png");
+}
+
+#symmetra{
+    background-image: url("../img/heroes/symmetra.png");
+}
+
+#zen{
+    background-image: url("../img/heroes/zen.png");
+}

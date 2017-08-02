@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+object{
+    box-sizing: border-box;
+    border: solid black 5px;
+}
+header{
+    height: 54px;
+    margin-bottom: 0;
+}
+
+.submenudiv {
+	background-color: black;
+	position: absolute;
+	z-index: 5;
+	top: 127px;
+	visibility: hidden;
+}
+.menu{
+    width: 184px;
+}
+.submenu{
+    width: 184px;
+}
+
+nav{
+    margin:0;
+}

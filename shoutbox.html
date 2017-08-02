@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/shoutbox.css">
+        <script src="js/shoutbox.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <div id="mensajes">
+            <p><span>.:SeaGull'Dan:.:</span> Alguien ha visto mi nueva forma de demonhunter güistrolado</p>
+            <p><span>xX_Illidan_TempuraxX:</span> no tio, soy ciego xdxd</p>
+            <p><span>MaguitoFuegote:</span> Blizzard buff fire mage pls</p>
+            <p><span>Sherlock:</span> Esta página no era de Overwatch?</p>
+            <p><span>Watson:</span> No shit, Sherlock</p>
+            <p><span>Chamaneitor:</span> Blizzard pls nerf fire mage pls and buff enhancement shaman</p>
+            <p><span>Vladimir:</span> сука блять rush B you noobs and buy me an AWP</p>
+            <p><span>Thrall:</span> Alguien me vende un martillo? El mio me lo quitaron esta expansión por la cara</p>
+            <p><span>Chamaneitor:</span> Te joes</p>
+        </div>
+         <form action="shout.txt" method="post">
+             Nick: <input type="text" id="nick" name="Nick" size="10">
+             <br><br>
+             <textarea name="msg" id="msg" rows="4" cols="24"></textarea>
+             <button id="post" type="button" name="Enviar" onclick="postMsg();">Enviar</button>
+         </form>
+    </body>
+</html>

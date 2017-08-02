@@ -1,0 +1,9 @@
+background-image: linear-gradient(top, rgb(0,0,0) 0%, rgb(255,255,255) 50%,
+     rgb(0,0,0) 50%, rgb(255,255,
+    255) 100%);
+background-image: -moz-linear-gradient(center top, rgb(0,0,0) 0%,rgb(255,255,
+    255) 50%,rgb(0,0,0) 50%,rgb(255,255,
+    255) 100%);
+background-image: -webkit-gradient(linear, left top, left bottom,
+     color-stop(0.000, rgb(0,0,0)),color-stop(0.500, rgb(255,255,255)),
+    color-stop(0.500, rgb(0,0,0)),color-stop(1.000, rgb(255,255,255)));

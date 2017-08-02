@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    padding:0;
+    height: 487px;
+    width: 851px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+img{
+    position: relative;
+    left:28%;
+}
