@@ -5,7 +5,10 @@
 
 html {
     font-family: "owfont";
-	background-color: #353535;
+    background-color: #353535;
+    width: 1362px;
+    height: 832px;
+    margin-left: 8%;
 }
 
 body{
